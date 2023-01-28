@@ -1,3 +1,4 @@
+import Example from "./Hook";
 import "./App.css";
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
       </section>
       <div class="container is-fullhd">
         <div class="notification">
-          Edit the <code>./src</code> folder to add components.
+          
+          <Example/>
         </div>
       </div>
     </div>
